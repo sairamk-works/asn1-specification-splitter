@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - develop
-      - branch-*
+      - feature/IntegrationTests
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
