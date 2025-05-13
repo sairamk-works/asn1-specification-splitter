@@ -5,6 +5,9 @@ on:
       - develop
       - feature/IntegrationTests
   pull_request:
+    branches:
+        - develop
+        - feature/IntegrationTests
     types: [opened, synchronize, reopened]
 jobs:
   sonarqube:
